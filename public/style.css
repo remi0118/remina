@@ -5,7 +5,7 @@
 h1
 {
     text-align: center;
-    background-color: #cdc;
+    background-color: #888;
     color: #fff;
 }
 input,
@@ -29,4 +29,8 @@ button
 #chats
 {
     font-size:5vw;
+}
+#form
+{
+    display:none;
 }
