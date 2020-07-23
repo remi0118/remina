@@ -8,11 +8,6 @@ const name = document.getElementById("name");
 
 let username='';
 nameform.addEventListener('submit', function(event){
-  username = name.value;
-  event.preventDefault();
-  nameform.style.display ="none";
-  form.style.display ="block";
-  
   const msg = {msg: username + ' さんが参加しました。', name: 'システム'};
   socketio.emit('message', msg);
 
